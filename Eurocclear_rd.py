@@ -106,7 +106,7 @@ def meeting_place_fun(row, cats_dict):
 
     return row, cats_dict
 
-
+# test comment
 def announcedate_fun(row, cats_dicta):
 
     #! Announcedate Logic
