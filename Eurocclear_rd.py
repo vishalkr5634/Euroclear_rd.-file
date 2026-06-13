@@ -106,7 +106,7 @@ def meeting_place_fun(row, cats_dict):
 
     return row, cats_dict
 
-
+# test comment
 def announcedate_fun(row, cats_dicta):
 
     #! Announcedate Logic
@@ -139,7 +139,7 @@ def announcedate_fun(row, cats_dicta):
                 date.today() -
                 timedelta(
                     days=1)).strftime("%Y-%m-%d %T")
-
+# comment 2
     elif len((row.get('FilePath', '').split("\\")[-1]).split('.')[1][:-2]) == 8:
 
         cats_dict['announcedate'] = datetime.strptime((row.get('FilePath', '').split(
